@@ -1,0 +1,21 @@
+.header {
+    background: rgb(3,37,65);
+}
+.header-logo{
+    color: bisque;
+}
+.logo {
+    width: 60px;
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.language {
+    top: 30px;
+    right: 50px;
+}
+.lang-select {
+    background: rgb(3,37,65);
+    color:yellow;
+}

@@ -1,0 +1,51 @@
+.data-block {
+    color: azure;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 5px 5px 10px;
+    text-align: left;
+}
+.data-block h3{
+    text-align: center;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: bisque;
+    font-weight: bold;
+    font-size: 24px;
+}
+.add-btn{
+    text-align: right;
+}
+.box-enter {
+    opacity: 0;
+    transform:rotateY(-180deg);
+}
+.box-enter-active {
+    opacity: 1;
+    transform:rotateY(0);
+    transition: 600ms;
+}
+.box-exit {
+    opacity: 1;
+}
+.box-exit-active {
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition: 600ms ease-in;
+}
+.item-enter {
+    opacity: 0;
+}
+.item-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.item-exit {
+    opacity: 1;
+}
+.item-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+}

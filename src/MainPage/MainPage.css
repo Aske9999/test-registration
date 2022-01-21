@@ -1,0 +1,9 @@
+.main-bg {
+    background: url("../images/main-bg.jpg") center/cover;
+    height: calc(100vh - 95px);
+}
+.greeting-title{
+    color: yellow;
+    font-size: 56px;
+    text-transform: uppercase;
+}
