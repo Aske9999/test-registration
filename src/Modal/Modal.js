@@ -21,11 +21,9 @@ const Modal = ({users, setUsers, setShowModal, action, defaultUser}) => {
       .finally(() => setShowModal(false))
   }
 
-  // const closeModal = () => setShowModal(false)
-
   return (
-    <div onClick={() => setShowModal(false)} className="box absolute inset-0 min-h-screen">
-      <form onClick={(e) => e.stopPropagation()}
+    <div onMouseDown={() => setShowModal(false)} className="box absolute inset-0 min-h-screen">
+      <form onMouseDown={(e) => e.stopPropagation()}
             onSubmit={handleSubmit(action === 'add' ? add : save)}
             className="relative flex flex-col custom-form ">
         <div className="flex flex-col mb-3">
